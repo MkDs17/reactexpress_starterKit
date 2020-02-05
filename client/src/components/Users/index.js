@@ -1,12 +1,12 @@
 import React from 'react';
-import './users.css';
+import './users.scss';
 
 class Users extends React.Component {
   constructor() {
     super();
     this.state = {
-      users: []
-    }
+      users: [],
+    };
   }
 
   componentDidMount() {
@@ -17,7 +17,7 @@ class Users extends React.Component {
 
   render() {
     return (
-      <div className="Users">
+      <div className="users">
         <h2>Users</h2>
         <ul>
           {this.state.users.map(user => 
@@ -26,7 +26,7 @@ class Users extends React.Component {
         </ul>
       </div>
     );
-  }  
+  }
 }
 
 export default Users;

@@ -1,0 +1,30 @@
+@import 'src/styles/vars';
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .app-header {
+    background-color: #F8B739;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+    display: -webkit-box;
+    display: flex;    
+    flex-direction: row;   
+    align-items: center;
+    justify-content: center;
+
+    & img {
+      width: 35px;
+      margin: .5em;
+    }
+  }
+
+}
